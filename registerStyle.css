@@ -1,0 +1,164 @@
+#login .page {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+/* 背景图片部分 */
+
+#login {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#login .login-bg {
+    max-width: 1200px;
+}
+
+#login img {
+    width: 100%;
+}
+
+
+/* 注册表单部分 */
+
+#login .page {
+    position: absolute;
+    margin-top: 46px;
+    padding: 0 90px;
+    border-radius: 10px;
+    background-color: rgba(214, 183, 199, .4);
+}
+
+#login .page .title {
+    position: relative;
+    margin: 25px 0 30px;
+    text-align: center;
+}
+
+#login .page .title span:nth-child(1) {
+    position: absolute;
+    left: -50px;
+    top: 10px;
+    color: #f8d4ed;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#login .page .title span:nth-child(1)::before {
+    content: '\e67c';
+    font-family: "iconfont" !important;
+    font-size: 15px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#login .page .title span:nth-child(2) {
+    color: #f8d4ed;
+    font-size: 29px;
+}
+
+form .box::before {
+    font-size: 35px;
+}
+
+#login .page form .box {
+    width: 304px;
+    height: 42px;
+    margin-bottom: 30px;
+    border: 2px solid #f0cde4;
+    border-radius: 5px;
+}
+
+
+/* 错误提示框 */
+
+#login .page form .box .warning {
+    position: absolute;
+    right: 0;
+    top: 46px;
+    color: #fb3354;
+}
+
+#login form input {
+    width: 218px;
+    height: 40px;
+    padding-left: 46px;
+    margin-bottom: 32px;
+    font-size: 19px;
+    background-color: transparent;
+}
+
+#login form input::placeholder {
+    color: rgb(248, 212, 234, .9);
+    font-style: italic;
+}
+
+#login form .code input {
+    width: 160px;
+    border: 2px solid #f0cde4;
+    border-radius: 5px;
+}
+
+#login form .code button {
+    width: 90px;
+    height: 43px;
+    margin-left: 7px;
+    border-radius: 5px;
+    border: 1px solid #f8d4ed;
+    color: #8f5582;
+    font-size: 15px;
+    font-weight: 550;
+    background-color: #f8d4ed;
+    cursor: pointer;
+}
+
+#login form .box:last-child {
+    margin-bottom: 40px;
+    border: 0;
+}
+
+#login form .box .tool {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#login form .box:last-child input {
+    width: 304px;
+    padding-left: 0;
+    color: #8f5582;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #f8d4ed;
+    cursor: pointer;
+    box-shadow: -4px 4px 10px rgb(100, 80, 97);
+}
+
+form .box::before {
+    top: 3px;
+    left: 8px;
+}
+
+form #username::before {
+    content: '\e622';
+}
+
+form #pwd::before,
+form #pwdagain::before {
+    content: '\e617';
+}
+
+form #tel::before {
+    content: '\e605';
+}
+
+form #code::before {
+    content: '\e805';
+    margin-top: 6px;
+    margin-left: 12px;
+    font-size: 32px;
+}

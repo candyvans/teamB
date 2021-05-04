@@ -1,0 +1,65 @@
+{
+  "id": "2524897",
+  "name": "NW",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14046411",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "1126026",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "2418284",
+      "name": "左箭头",
+      "font_class": "zuojiantou",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "5220174",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "7447567",
+      "name": "人像-01",
+      "font_class": "renxiang-",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "9186714",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "15229129",
+      "name": "锁",
+      "font_class": "11",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "15816527",
+      "name": "008对话框-6",
+      "font_class": "008duihuakuang-6",
+      "unicode": "e805",
+      "unicode_decimal": 59397
+    }
+  ]
+}
